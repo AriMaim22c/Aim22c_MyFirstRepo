@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+    int i;
+    int j;
+    int ij;
+    float x;
+    float y;
+    float xy;
+    cout << "Please input 2 integers." << endl;
+    cin >> i;
+    cin >> j;
+    ij = i/j;
+    cout << ij << endl;
+    x = i;
+    y = j;
+    xy = x/y;
+    cout << xy << endl;
+    return 0;
+}
+// Both inputs will not be the exact same in every instance. 
+// The Float variable will show more decimal places because it can store more.
+// This occurs if the quotient of the two integers isnt a whole number. 
+// The float will display the decimals, while the integer will just round down to the nearest integer.
